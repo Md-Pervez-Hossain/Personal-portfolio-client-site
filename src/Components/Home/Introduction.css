@@ -1,0 +1,13 @@
+.sliding-3 {
+  height: 1.2em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-shadow: 0 -1.2em #fff;
+  line-height: var(--t, 1.2em);
+  background: linear-gradient(currentColor 0 0) top/100% var(--d, 0) no-repeat;
+  transition: 0.5s linear;
+}
+.sliding-3:hover {
+  --d: 100%;
+  --t: 3.6em;
+}
